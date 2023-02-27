@@ -2,3 +2,8 @@
 type: AuthzCodeStoreGroup
 fields:
   name: Authorization Code Stores
+children:
+- type: AuthzCodePersist
+  fields:
+    name: Authz Code Store
+    cache: /Libraries/Cache Manager/OAuth AuthZ Code Cache

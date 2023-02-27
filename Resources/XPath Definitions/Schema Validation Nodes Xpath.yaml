@@ -25,3 +25,7 @@ children:
     fields:
       prefix: soap
       URI: http://schemas.xmlsoap.org/soap/envelope/
+- type: XPath
+  fields:
+    name: The entire message
+    xpath: /

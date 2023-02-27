@@ -8,3 +8,14 @@ fields:
   - AttributeAuthnFilter
   - FormAuthnFilter
   name: LDAP Repositories
+children:
+- type: AuthnRepositoryLdap
+  fields:
+    ldapDir: /External Connections/LDAP Directories/Sample Active Directory Connection
+    searchBase: CN=Users,DC=sample,DC=com
+    searchClass: User
+    searchAttrib: cn
+    loginAttrib: distinguishedName
+    authzAttribute: distinguishedName
+    authZAttribFormat: X509DName
+    name: Sample Active Directory Repository

@@ -1,0 +1,4 @@
+---
+type: Cache
+fields:
+  name: OAuth Client Access Token Cache

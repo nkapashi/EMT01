@@ -10,3 +10,8 @@ fields:
   - AttributeAuthnFilter
   - FormAuthnFilter
   name: Local Repositories
+children:
+- type: AuthnRepositoryLocal
+  fields:
+    authZAttribFormat: Username
+    name: Local User Store

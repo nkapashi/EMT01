@@ -147,3 +147,16 @@ children:
   fields:
     name: The Entire Document
     xpath: /*
+- type: XPath
+  fields:
+    name: PriceNode
+    xpath: /soap:Envelope/soap:Body/m:GetStockPriceResponse/m:Price
+  children:
+  - type: XPathNamespace
+    fields:
+      prefix: soap
+      URI: http://schemas.xmlsoap.org/soap/envelope/
+  - type: XPathNamespace
+    fields:
+      prefix: m
+      URI: http://www.example.org/stock
