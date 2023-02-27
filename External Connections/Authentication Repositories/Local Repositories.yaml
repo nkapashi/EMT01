@@ -1,0 +1,12 @@
+---
+type: AuthnRepositoryLocalGroup
+fields:
+  allowedFilter:
+  - HttpBasicFilter
+  - HttpDigestFilter
+  - WsBasicFilter
+  - WsDigestFilter
+  - WsUsernameFilter
+  - AttributeAuthnFilter
+  - FormAuthnFilter
+  name: Local Repositories

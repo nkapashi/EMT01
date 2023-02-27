@@ -1,0 +1,10 @@
+---
+type: AuthnRepositoryLdapGroup
+fields:
+  allowedFilter:
+  - HttpBasicFilter
+  - WsBasicFilter
+  - WsUsernameFilter
+  - AttributeAuthnFilter
+  - FormAuthnFilter
+  name: LDAP Repositories

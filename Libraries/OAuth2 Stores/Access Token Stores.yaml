@@ -1,0 +1,4 @@
+---
+type: AccessTokenStoreGroup
+fields:
+  name: Access Token Stores
